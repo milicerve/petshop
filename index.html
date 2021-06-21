@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div>
+        <div class="barra-ofertas">
             <span>Grandes ofertas en comederos</span>
             <span>Español</span>
             <span>ARG$</span>
         </div>
-        <div>
+        <div class="barra-principal">
             <h1>
-                <img src="img/Cat.png" alt="logo gato">Front Cat&Dog <img src="img/Dog.png" alt="logo perro">
+                <img src="img/Cat.png" alt="logo gato"><span>Front</span>Cat&Dog <img src="img/Dog.png" alt="logo perro">
             </h1>
             <nav>
                 <ul type="none">
@@ -29,32 +31,35 @@
     </header>
     <main>
         <section>
-            <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="comedero fondo">
-            <h2>¡Es un placer tenerte aquí! </h2>
-            <p>¡Comederos en descuento!</p>
-            <a href="comederos.html">COMEDEROS</a>
+            <div class="heroe">
+                <h2>¡Es un placer tenerte aquí! </h2>
+                <p>¡Comederos en descuento!</p>
+                <a href="comederos.html">COMEDEROS</a>
+            </div>
         </section>
         
         <section>
-            <img src="img/pawprint 1.png" alt="pawprint">
-            <h2>Productos Destacados</h2>
-            <span>Comederos</span>
-            <span>Accesorios</span>
-            <span>Comida</span>
+            <div class="producto-destacado">
+                <img src="img/pawprint 1.png" alt="pawprint">
+                <h2>Productos Destacados</h2>
+                <span>Comederos</span>
+                <span>Accesorios</span>
+                <span>Comida</span>
+            </div>
 
-            <div>
+            <div class= "card">
                 <img src="img/churrasquito.png" alt="churrasquito">
                 <h4>Juguete Churrasquito</h4>
                 <p>$150</p>
             </div>
 
-            <div>
+            <div class= "card">
                 <img src="img/comedero.png" alt="churrasquito">
                 <h4>Comedero para perro</h4>
                 <p>$250</p>
             </div>
 
-            <div>
+            <div class= "card">
                 <img src="img/Huesito.png" alt="churrasquito">
                 <h4>Juguete Huesito</h4>
                 <p>$650</p>
@@ -63,7 +68,24 @@
         </section>
     </main>
     <footer>
-        <p style="text-align: center;">Todos los derechos reservados Front End</p>
+        <div class="footer-top">
+            <img src="img/Icono location.png" alt="location">
+            <h3>Localidad</h2>
+            <p>Calle - provincia</p>
+            <img src="img/Icono tel.png" alt="telefono">
+            <h3>Teléfono</h2>
+            <p>Número de teléfono</p>
+            <img src="img/Icono correo.png" alt="correo">
+            <h3>Correo Electrónico</h2>
+            <p>Dirección de correo</p>
+            <h2>
+                <img src="img/Cat.png" alt="logo gato"><span>Front</span>Cat&Dog<img src="img/Dog.png" alt="logo perro">
+            </h2>
+        </div>
+        
+        <div class= "footer-bottom">
+            <p style="text-align: center;">Todos los derechos reservados Front End</p>
+        </div>
     </footer>
     
 </body>
