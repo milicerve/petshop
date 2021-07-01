@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -10,11 +10,28 @@ body {
   color: #f3f3f3;
   font-weight: 400;
   font-size: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.barra-ofertas-principal {
+  margin: 2px 50px;
+}
+
+.barra-ofertas-secundaria {
+  margin: 2px 50px;
+}
+
+.barra-ofertas-secundaria span {
+  margin: 5px;
+}
 .barra-principal {
   background-color: #f0a83e;
   margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .barra-principal nav {
@@ -23,10 +40,15 @@ body {
   color: #ffffff;
 }
 
+nav ul list {
+  margin: 5px 10px;
+}
+
 h1 {
   font-weight: 700;
   font-size: 20px;
   color: #ffffff;
+  margin: 5px 10px;
 }
 
 h1 span {
@@ -35,11 +57,6 @@ h1 span {
 
 h2 span {
   color: #ffffff;
-}
-
-h1,
-h2 {
-  margin: 0px;
 }
 
 /* Estilos del main */
@@ -52,43 +69,96 @@ h2 {
   height: 400px;
   margin: 0px;
   text-align: center;
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .heroe a {
   background-color: #f0a83e;
   text-decoration: none;
   color: #ffffff;
+  padding: 15px;
+  margin: 10px;
 }
 
 .heroe h2 {
   background-color: #ffffff;
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .producto-destacado {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.producto-destacado h2 {
   font-size: 40px;
   font-weight: 700;
+  margin: 5px;
 }
+
+.listado {
+  margin: 10px;
+}
+
+.listado span {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px;
+}
+
 section span {
   font-weight: 400;
   font-size: 15px;
 }
 
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   background-color: #fbfaf6;
-  margin: 0px;
+  margin: 20px 8px;
   padding: 0px;
   font-size: 15px;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.card h4 {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
 .card p {
   color: #f0a83e;
   font-size: 15px;
   font-weight: 500;
+  margin: 0px;
 }
 
 .footer-top {
   background-color: #3c2313;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
 }
 
 .footer-top h3 {
@@ -101,6 +171,7 @@ section span {
   font-weight: 700;
   font-size: 20px;
   color: #f0a83e;
+  margin: 35px;
 }
 
 .footer-top p {
@@ -108,6 +179,39 @@ section span {
   font-weight: 700;
   font-size: 10px;
   margin: 0px;
+}
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.ubicacion h3 {
+  margin: 0px;
+}
+
+.ubicacion p {
+  margin: 0px;
+}
+
+.localidad {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 40px;
+}
+
+.telefono {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 40px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 40px;
 }
 
 .footer-bottom {
@@ -117,4 +221,5 @@ section span {
   font-size: 10px;
   font-style: normal;
   margin: 0px;
+  padding: 3px;
 }
