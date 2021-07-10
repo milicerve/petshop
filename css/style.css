@@ -152,6 +152,107 @@ section span {
   margin: 0px;
 }
 
+.formulario{
+  max-width: 40vh;
+  margin: 0 auto;
+}
+
+.formulario h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.formulario form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formulario input{
+  background: #3C2313;
+  border-radius: 15px;
+  color: #ffffff;
+  height: 1.5rem;
+}
+
+.formulario form ::placeholder{
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+#reset{
+  background-color:#8A8787;
+  height: 2rem;
+  width: 5rem;
+  font-size: 10px;
+}
+
+#submit{
+  background-color:#F0A83E;
+  height: 2rem;
+  width: 5rem;
+  font-size: 10px;
+}
+
+/*Estilos footer*/
+
+.suscribite{
+  display:flex;
+  justify-content: space-between;
+  background-color: #f0a83e;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.suscribite-novedades{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 20px;
+  font-size: 20px;
+  font-family: 700;
+  color: #ffffff;
+}
+
+.suscribite-form{
+  margin: 5px 20px;
+}
+
+.suscribite-form #email {
+  border-radius: 15px;
+  width: 15rem;
+  height: 1.5rem;
+}
+
+.suscribite-form ::placeholder{
+  color: #A0A0A0;
+  font-size: 9px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+#submit-suscribite{
+  background: #3C2313;
+  border-radius: 15px;
+  color: #ffffff;
+  height: 1.5rem;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+
+
 .footer-top {
   background-color: #3c2313;
   color: #ffffff;
@@ -165,6 +266,7 @@ section span {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
+  margin: 0px 10px;
 }
 
 .footer-top h2 {
@@ -178,7 +280,7 @@ section span {
   color: #8a8787;
   font-weight: 700;
   font-size: 10px;
-  margin: 0px;
+  margin: 0px 10px;
 }
 .ubicacion {
   display: flex;
